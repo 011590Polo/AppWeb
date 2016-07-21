@@ -1,19 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns ="http://www.w3.org/ns/widgets"
-        xmlns = "htp://phonegap.com/ns/1.0"
-        id    = "com.phonegap.example"
-        versionCode="10"
-        version  = "1.0.0" >
-    
-    <name>Appweb</name>
-
-    <description>
-        Pueba APPANDROID
-    </description>
-    
-    <author href="pagina.com" email="pagina@___.com"> 
-        
-    </author>
+<?xml version='1.0' encoding='utf-8'?>
+<widget 
+id="com.example.app" 
+version="0.0.1" 
+xmlns="http://www.w3.org/ns/widgets" 
+xmlns:cdv="http://cordova.apache.org/ns/1.0"
+>
+<name>App</name>
+<description>
+    A sample Apache Cordova application that responds to the deviceready event.
+</description>
+<author email="dev@cordova.apache.org" href="http://cordova.io">
+    Me
+</author>
+<content src="index.html" />
+<access origin="*" />
+<preference name="phonegap-version" value="3.0.0" />
+<gap:plugin name="org.apache.cordova.file" />
 
 </widget>
 
