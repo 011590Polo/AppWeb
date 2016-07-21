@@ -2,11 +2,11 @@ var myApp = new Framework7();
 var $$ = Dom7;
 
 $$('#entrar').on('click', function () {
-    window.location.href = "http://192.168.0.101/APPWEB/DIST/login.php";
+    window.location.href = "http://192.168.0.101/APPWEB/DIST/login.html";
 });
 
 $$('#registrar').on('click', function () {
-    window.location.href = "http://192.168.0.101/APPWEB/DIST/register.php";
+    window.location.href = "http://192.168.0.101/APPWEB/DIST/register.html";
 });
 
 $(document).ready(function () {
@@ -14,7 +14,7 @@ $(document).ready(function () {
         $.post('process/process.php?c=1', {nombre: $('#nombre').val(), correo: $('#correo').val(), celular: $('#celular').val(), fecha: $('#fecha').val(), password: $('#password').val()},
         function (result) {
             myApp.alert('Registro Correcto', 'Notificacion', function () {
-                window.location.href = "http://192.168.0.101/APPWEB/DIST/login.php";
+                window.location.href = "http://192.168.0.101/APPWEB/DIST/login.html";
             });
             console.log(result);
 //                        $("#table tbody").empty();
@@ -32,12 +32,12 @@ $(document).ready(function () {
             if(result.success)
             {
                 myApp.alert('hola '+': '+ $('#nombre').val(), 'Notificacion', function () {
-                    window.location.href = "http://192.168.0.101/APPWEB/DIST/home.php";
+                    window.location.href = "http://192.168.0.101/APPWEB/DIST/home.html";
                         });
             }else
             {                
                  myApp.alert('Datos Incorrectos ', 'Notificacion', function () {
-                    window.location.href = "http://192.168.0.101/APPWEB/DIST/login.php";
+                    window.location.href = "http://192.168.0.101/APPWEB/DIST/login.html";
                         });
             }
            
