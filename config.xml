@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns ="http://www.w3.org/ns/widgets"
+        xmlns = "htp://phonegap.com/ns/1.0"
+        id    = "com.phonegap.example"
+        versionCode="10"
+        version  = "1.0.0" >
+    
+    <name>Appweb</name>
+
+    <description>
+        Pueba APPANDROID
+    </description>
+    
+    <author href="pagina.com" email="pagina@___.com"> 
+        
+    </author>
+
+</widget>
+
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+
